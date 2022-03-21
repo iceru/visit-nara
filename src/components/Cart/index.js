@@ -68,7 +68,7 @@ const Cart = () => {
               </div>
             ))
           ) : (
-            <h5>{t("cart_empty")}</h5>
+            <p className="mb-0">{t("cart_empty")}</p>
           )}
         </div>
         <button className="cartButton btn" onClick={() => setCart()}>

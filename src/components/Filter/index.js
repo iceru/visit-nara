@@ -69,7 +69,7 @@ const Filter = ({ filter }) => {
             />
           </Col>
           <Col>
-            <Button className="w-100" variant="secondary" type="submit">
+            <Button className="w-100" variant="primary" type="submit">
               {t("search")}
             </Button>
           </Col>

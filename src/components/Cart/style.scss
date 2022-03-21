@@ -43,6 +43,7 @@
     width: 4rem;
     text-align: center;
     box-shadow: 0 0 5px 5px rgba($color: #969696, $alpha: 0.2);
+    color: white;
     .cartTotal {
       position: absolute;
       font-size: 0.95rem;
@@ -56,6 +57,7 @@
       font-weight: bold;
       border-radius: 50%;
       background-color: #d2e7f1;
+      color: black;
     }
   }
 }

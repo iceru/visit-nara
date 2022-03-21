@@ -62,7 +62,7 @@ const Items = ({ services, goToDetail, loadMore, totalPage, currentPage }) => {
                 </div>
                 <div className="buttonWrapper">
                   <Button
-                    className="btnView"
+                    className="btnView btn-primary"
                     onClick={() =>
                       goToDetail(service.Id, service.OnRequestOnly)
                     }
@@ -81,8 +81,8 @@ const Items = ({ services, goToDetail, loadMore, totalPage, currentPage }) => {
       <div className="loadMore">
         {totalPage > 1 && totalPage > currentPage && (
           <Button
-            variant="secondary"
-            className="w-100 fw-bold py-3 fs-5"
+            variant="primary"
+            className="w-100 fw-bold py-2 fs-5"
             onClick={() => loadMore()}
           >
             {t("load_more")}

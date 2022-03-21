@@ -194,14 +194,13 @@ const Products = () => {
             <Button
               variant={stateButton ? "primary" : "secondary"}
               onClick={() => changeToQuick()}
-              className="me-3 fw-bold"
+              className="me-3"
             >
               {t("quick_booking")}
             </Button>
             <Button
               variant={stateButton ? "secondary" : "primary"}
               onClick={() => changeToRequest()}
-              className="fw-bold"
             >
               {t("request_book")}
             </Button>

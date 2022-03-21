@@ -64,7 +64,6 @@
 
       .address {
         color: rgb(105, 105, 105);
-        font-weight: 500;
         font-family: "Crimson Pro", serif;
         font-style: italic;
       }
@@ -90,9 +89,6 @@
         justify-content: center;
 
         .btnView {
-          background-color: transparent;
-          border: 1px solid $primary;
-          color: $primary;
           padding: 0.5rem 2rem;
         }
       }
