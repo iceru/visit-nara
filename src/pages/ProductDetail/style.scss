@@ -1,0 +1,137 @@
+@import "../../assets/styles/variables";
+
+.container {
+  padding: 5vh 0;
+
+  .slick-slide img {
+    margin: auto;
+  }
+  .back {
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    display: block;
+  }
+
+  .product {
+    border: 8px solid $primary;
+    border-radius: 0 0 1.25rem 1.25rem;
+
+    .skeletonWrapper {
+      padding: 2rem;
+    }
+
+    .productWrapper {
+      padding: 2rem;
+      padding-top: 0;
+
+      .serviceType {
+        margin-left: -2rem;
+        padding: 0.5rem 2rem;
+        padding-bottom: 0.75rem;
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+        border-bottom-right-radius: 1.25rem;
+        background-color: $primary;
+        font-weight: bold;
+        display: inline-block;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .carousel {
+        text-align: center;
+        margin: 2rem 0;
+        margin-bottom: 4rem;
+
+        .slick-dots {
+          bottom: -40px;
+        }
+
+        .image {
+          max-height: 300px;
+          width: auto;
+        }
+      }
+
+      .checkPrice {
+        padding: 1rem;
+        border: 2px solid lightgray;
+        h4 {
+          margin-bottom: 1rem;
+        }
+
+        .formCategories {
+          position: relative;
+          .icon {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+          select {
+            padding: 0.75rem 3rem;
+            font-weight: bold;
+          }
+        }
+
+        .btn {
+          font-size: 1.15rem;
+          padding: 0.5rem 2rem;
+        }
+
+        .formDate {
+          margin-right: 0.5rem;
+          max-width: 300px;
+        }
+
+        .formIcon {
+          position: relative;
+          margin-right: 0.5rem;
+          max-width: 100px;
+
+          .icon {
+            position: absolute;
+            left: 0.5rem;
+            top: 38%;
+            transform: translateY(-50%);
+
+            img {
+              height: 20px;
+              width: auto;
+            }
+          }
+
+          input {
+            padding-left: 2rem;
+          }
+        }
+      }
+
+      .sectionTitle {
+        border-bottom: 3px solid $primary;
+        margin-bottom: 1rem;
+
+        span {
+          background-color: $primary;
+          padding: 0.5rem 3rem;
+          padding-left: 1rem;
+          display: inline-block;
+          font-weight: bold;
+          border-top-right-radius: 1.25rem;
+          font-size: 1.25rem;
+        }
+      }
+
+      tr {
+        border-bottom: 1px solid grey;
+
+        td {
+          padding: 1rem 0.5rem;
+        }
+      }
+    }
+  }
+}
