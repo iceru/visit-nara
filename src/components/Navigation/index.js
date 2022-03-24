@@ -3,6 +3,7 @@ import { Row, Col, Form } from "react-bootstrap";
 
 import Logo from "../../assets/images/logo.svg";
 import Search from "../../assets/images/search.svg";
+import Menu from "../../assets/images/icon-menu.svg";
 
 import "./style.scss";
 
@@ -35,6 +36,19 @@ const Navigation = () => {
               </div>
             </Col>
           </Row>
+        </div>
+      </div>
+      <div className="headerSmall">
+        <div className="container d-flex justify-content-between align-items-center">
+          <div className="iconSearch">
+            <img src={Search} />
+          </div>
+          <div className="logo">
+            <img src={Logo} />
+          </div>
+          <div className="iconMenu">
+            <img src={Menu} />
+          </div>
         </div>
       </div>
     </>
